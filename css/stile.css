@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+/* ---- container ----- */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /*----Header----*/
+
+  header {
+    background-color: rgb(94, 219, 94);
+    color: white;
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+}
+
+.nav-list {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-list {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/* ---- Portada Index ---- */
+
+.portada-index {
+  height: 91vh;
+
+  background-image: url(../img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-portada {
+  background-color: rgba(95, 158, 160, 0.762);
+  text-align: center;
+  padding: 16px;
+  border-radius: 10px;
+}
